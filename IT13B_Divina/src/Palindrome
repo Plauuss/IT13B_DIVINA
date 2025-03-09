@@ -1,0 +1,24 @@
+cd C:\Users\User\Documents\GitHub\PalindromeCheck; "JAVA_HOME=C:\\Program Files\\Java\\jdk-23" cmd /c "\"C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-23\\bin\\java.exe\" -Dexec.mainClass=PalindromeChecker.PalindromeChecker -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+-------------------< com.mycompany:PalindromeCheck >--------------------
+Building PalindromeCheck 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ PalindromeCheck ---
+skip non existing resourceDirectory C:\Users\User\Documents\GitHub\PalindromeCheck\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ PalindromeCheck ---
+Recompiling the module because of changed source code.
+Compiling 5 source files with javac [debug release 23] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ PalindromeCheck ---
+Enter a string: Oppo
+Palindrome
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  4.024 s
+Finished at: 2025-03-09T18:20:10+08:00
+------------------------------------------------------------------------
